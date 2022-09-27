@@ -14,5 +14,6 @@ jobs:
         with:
           # You can target a repository in a different organization
           # to the issue
-          project-url: https://github.com/users/fraguada/projects/1
           github-token: ${{ secrets.GHPROJECT_TOKEN }}
+          project-url: https://github.com/users/fraguada/projects/1
+          

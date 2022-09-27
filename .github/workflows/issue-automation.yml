@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.1
         with:
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
           project: issue-automation-test
           column: Todo
-          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
+          
